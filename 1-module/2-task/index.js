@@ -10,6 +10,9 @@ function print(text) {
  * чтобы функция sayHello работала корректно
  */
 function isValid(name) {
+  if ( !Boolean(name) ) return false;
+  return (name === "Ilia") ?  true: false;
+
 }
 
 function sayHello() {
