@@ -1,4 +1,4 @@
-"use strict";
+//"use strict";
 let calculator = {
   ValA : 0,
   ValB : 0,
@@ -14,8 +14,6 @@ let calculator = {
     }
 
 };
-debugger;
-calculator.read(3,5);
-console.log(calculator.sum());
+
 // НЕ УДАЛЯТЬ СТРОКУ, НУЖНА ДЛЯ ПРОВЕРКИ
-//window.calculator = calculator; // делает ваш калькулятор доступным глобально
+window.calculator = calculator; // делает ваш калькулятор доступным глобально

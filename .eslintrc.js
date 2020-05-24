@@ -4,7 +4,6 @@ module.exports = {
     es6: true,
     mocha: true
   },
-
   parser: 'babel-eslint',
   parserOptions: {
     ecmaVersion: 2020,
